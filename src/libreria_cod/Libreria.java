@@ -15,4 +15,10 @@ public class Libreria {
         JOptionPane.showMessageDialog(null, texto);
         return texto;
     }
+
+    public static String pedirString(String respuesta) {
+
+        JOptionPane.showInputDialog(respuesta);
+        return respuesta;
+    }
 }
