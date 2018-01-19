@@ -32,4 +32,10 @@ public class Libreria {
         int dato = Integer.parseInt(JOptionPane.showInputDialog(respuesta));
         return dato;
     }
+
+    public static double pedirDouble(String respuesta) {
+        double dato = Double.parseDouble(JOptionPane.showInputDialog(respuesta));
+        return dato;
+
+    }
 }
