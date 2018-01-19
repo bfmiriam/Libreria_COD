@@ -21,4 +21,10 @@ public class Libreria {
         JOptionPane.showInputDialog(respuesta);
         return respuesta;
     }
+
+    public static float pedirFoat(String respuesta) {
+
+        float dato = Float.parseFloat(JOptionPane.showInputDialog(respuesta));
+        return dato;
+    }
 }
