@@ -2,12 +2,11 @@ package libreria_cod;
 
 import javax.swing.JOptionPane;
 
-
 public class Libreria {
 
-    public static int hacerPregunta() {
+    public static int hacerPregunta(String mensaje) {
 
-        int opcion = JOptionPane.showConfirmDialog(null, "¿Desea mas informacion?","pregunta",JOptionPane.YES_NO_OPTION);
+        int opcion = JOptionPane.showConfirmDialog(null, mensaje, "pregunta", JOptionPane.YES_NO_OPTION);
         return opcion;
     }
 }
